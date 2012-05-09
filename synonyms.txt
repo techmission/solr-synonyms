@@ -18,21 +18,16 @@ cccfoo => cccbar cccbaz
 fooaaa,baraaa,bazaaa
 
 # Some synonym groups specific to this example
-GB,gib,gigabyte,gigabytes
-MB,mib,megabyte,megabytes
-Television, Televisions, TV, TVs
+# GB,gib,gigabyte,gigabytes
+# MB,mib,megabyte,megabytes
+# Television, Televisions, TV, TVs
 #notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
 #after us won't split it into two words.
 
 # Synonym mappings can be used for spelling correction too
-pixima => pixma
+# pixima => pixma
 
-family => families
-education => ed
-women => women's
-youth,child,children,kid,kids,yout => children's
-Youth,youth,Childcare,childcare,Kids,kids,Yout,yout
-Youth,youth,Childcare,childcare,Kids,kids,Yout,yout
+#youth,child,children,kid,kids,yout => children's
 #Youth, youth, Childcare, childcare, Kids, kids, Yout, yout => "Youth Worker / Childcare"
 #Homeless, homeless, Homelessness, homelessness, Housing, housing => "Homelessness and Housing"
 
@@ -69,3 +64,80 @@ Videographer,videographer,videographers
 VeteransDay,veteran,veterans
 handson,hands on
 united way,unitedway
+
+# Synonyms from Mapping
+Accounting / Finance,accountant,accounting,actuary,appraiser,Audit,bank,bankruptcy,book keeper,bookkeeper,bookkeeping,broker,cashier,claims adjuster,compliance officer,CPA,credit union,finance,financial,insurance,investment,loan officer,microenterprise,micro-enterprise,microfinance,mortgage,pension,QuickBooks,securities,tax preparation,tax preparer,treasurer
+Administrative / Office Work,Administration,Administrative,Administrator,clerical,clerk,data entry,data processing,document preparation,executive assistant,filing,front desk,inventory,office assistant,office helper,office support,order processor,procurement,receptionist,secretary,sorter,typing,typist
+Adult Basic Education / GED,adult basic education,adult education,adult learning,adult literacy,continuing education,GED,lifelong learning
+Adult Ministry,Adults,Families,Family,Marriage
+Agriculture,4-H,agribusisness,agriculture,aquaculture,breeder,breeding,Farm,fishing,forestry,garden,harvest,horticulture,hunting,livestock,logging,poultry,ranch,tractor,trapping
+Arts and Humanities,archivist,art,cartoon,ceramics,creative,curator,genealogy,historian,illustrator,jewelry,liberal arts,librarian,library,museum,painting,pottery,sculptor
+Dance and Drama,acting,actor,actress,casting,choreographer,choreography,clown,costume,dance,drama,dressing room,lighting technician,makeup,monologue,publicity manager,set design,stage hand,stage manager,theater,theatre,wardrobe
+Aviation,air traffic controller,airplane,aviation,Cessna,mercy flight,pilot,plane
+Babysitting / Childcare / Nursery,au pair,babysit,child care,childcare,day care,daycare,infant,nanny,nursery,play group,playspace,respite care
+Board Member,advisory,board development,board meeting,Board Member,board of directors,chair person,chairman,chairperson,co-chair,committee
+Chaplaincy,chaplain,chaplaincy,pastoral care
+Children and Youth Ministry,boy scout,Children,drop-in center,girl scout,Kids,Teen,Young Life,Youth,youth pastor
+Christian Camping,adventure guide,cabin,camp,camper
+Christian Radio / TV,announcer,broadcast,radio,streaming,television,tv
+Church Planting,church plant
+Cleaning / Facilities,air conditioning,facility manager,groundskeeper,handiman,handy man,handy person,handyman,home improvement,housekeeper,housekeeping,janitor,landscaping,lawn,maid,maintenance,pest control,pesticide,repair,sanitation,sweep,tree trimmer,waste management,yard work
+Colleges and Universities,adjunct,campus life,dean,financial aid,graduate assistant,graduate school,professor,registrar,seminary,student life,teaching assistant,teaching fellow
+Computer Training,computer basics,computer center,computer class,computer lab,computer trainer,lab supervisor,media lab,tech team
+Computers / Technology,Adobe,Apple,artificial intelligence,C++,code analysis,Computer,Creative Suite,data modeling,database administrator,Drupal,fiber optic,firewall,Google,hardware,helpdesk support,ict,InDesign,information architecture,information technology,Joomla,LAN,Linux,Mediawiki,Microsoft,Microsoft Windows,MS Office,network,OS Commerce,OS X,Perl,PHP,phpBB,Powerpoint,programmer,refurbishing,robotics,semiconductor,software,systems analyst,technical writer,Technology,telecommunications,Unix,usability,user experience,WordPress,,,,,,,,,,,,,,,
+Construction,boiler,builder,building exterior,building inspector,carpenter,concrete,condominium,construction,contractor,crew leader,drywall,electrician,framing,glass,glazier,home improvement,house gutting,hvac,interior design,mason,multifamily,paperhanger,photovoltaic,pipelayer,plumber,property development,remodel,renovation,roofing,septic tank,siding,single-family,steel,tile,weatherization,work camp,zoning,,,,,,,,,,,,,,,,,,,,,,,,
+Counseling / Addiction / Recovery,Addiction,alcoholics,battered,behavioral,bereavement,care team,cessation,child abuse,crisis intervention,crisis line,day support,detox,domestic abuse,drugs,emotional disturbances,family violence,grief,halfway house,help line,helpline,help-line,hotline,house mom,house parents,intake,life coaching,life coaching,life skills,live-in staff,mental health counselor,methadone,neglected,night support,prehab,psychotherapist,referral,rehabilitation,residential counselor,self-esteem,self-help,sober house,substance abuse,suicide,twelve step,,,,,,,,,,,,,,,,,
+Disabilities Ministry,ADD,ADHD,Arc,assistive technology,autism,Blind,braille,cerebral palsy,Deaf,Disabilities,Disabled,Down syndrome,dyslexia,hearing aid,impaired,impediment,L'Arche,mobility aid,muscular dystrophy,sign language,special ed,special needs,special olympics,wheelchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Disaster / Global Relief,child sponsor,child sponsorship,cleanup,damage assessment,Disaster,earthquake,emergency ,evacuation,famine,FEMA,flood,global relief,ham radio,humanitarian,hurricane,mucking,preparedness,search and rescue,storm spotter,tornado,tree cutting,tsunami,UNESCO,volcano,World Vision,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Discipleship / Spiritual Formation,disciple,discipleship,monastery,monastic,pilgrimage,spiritual director,spiritual formation,spiritual life
+Early Education,compensatory education,early learning,head start,kindergarten,Montessori,preschool,school readiness
+Education,curriculum,Education,instructional design,Literacy
+Engineering / Architecture,aerospace,architecture,CAD,cartography,drafter,Engineer,hydraulic,materials research,materials science,metallurgy,surveying,urban planner,urban planning
+Environment,adopt-a-tree,animal,beach,beautification,climate change,conservation,desertification,earth,ecology,ecosystem,eco-volunteering,emissions,endangered,environment,ferret,global warming,groomer,grooming,hazardous materials,hazmat,horse,litter,national park,nature,pet,pollution,puppy,recycling,stream,veterinarian,veterinary,watershed,wetlands,wild fire,wildfire,wildlife
+Evangelism/Seeker Ministry,apologetics,Evangelism,Evangelist,Evangelistic,proclaim Christ,relational,revival,tract,witness
+Event Planning,auction,banquet,carnival,circus,convention,event coordinator,event planner,Events,festival,fireworks,fun day,gala,parade,party planner,party planning,retreat,special event,trade show,wedding planner
+Food Services,baker,barista,brown bag,cafe,canning,canteen,catering,concessions,confection,cook,cookie,CSA,culinary,dairy,dietary aide,dietary assistant,dining hall,dishwasher,dishwashing,farm share,Food,glean,grocery,kitchen,lunchroom,lunchtime,mealtime,restaurant,Soup,supper,waiter,waitress
+Fundraising,benevolence,capacity building,capital campaign,constituent,director of development,donation,donor cultivation,donor relationship,endowment,fiscal sponsor,foundation,Fund raiser,fund raising,fundraiser,fund-raiser,fundraising,fund-raising,grant writer,grantmaking,grant-making,grants,grantwriter,in-kind,major gifts,philanthropy,pledge drive,proposal
+Graphics / Web Design,animation,graphic artist,Graphic Design,Graphics,Web Design,webmaster
+Health and Medicine,AIDS,ambulance,anesthesiologist,audiologist,blood bank,cardiologist,childbirth,chiropractor,clinical director,clinician,community health,diagnostic imaging,dietitian,disease,disorder,emergency room,EMT,first aid,general practitioner,gerontology,gynecologist,Health,HIV,hospice,hygenist,intensive care,internist,LPN,MAP International,massage therapist,Medic,medical,mental health,midwife,midwifery,midwives,nurse,nursing,nutritionist,obstetrician,occupational therapist,ophthalmic,optometrist,orderly,orthodonist,pathologist,patient,pharmaceutical,pharmacy,phlebotomist,physical therapist,physician,podiatrist,proshetist,psychiatric,radiologist,respiratory,RN,surgeon,therapist,trauma center
+Homelessness and Housing,Homeless,Homelessness,Housing,runaway,shelter,tenant
+Hospitality/Greeting/Guest Services,befriend,bellhop,concierge,greeter,guesthouse,hospitality,hostess,porter,tourism,welcoming
+Human Resources / Volunteer Management,hiring,HR,interview,org chart,organization chart,personnel,recruitment,retirement,team building,voluntarism,volunteerism
+Immigrants and Refugees,amnesty,asylees,asylum,citizenship,intercultural,migration,naturalization,resettlement,undocumented worker,visa
+International Missions,10/40,church mobilization,missions trip,people group,short term mission,unreached
+Jobs Training and Placement,apprenticeship,career counseling,employment preparation,Goodwill,job assistance,job bank,job club,job coach,job corps,job fair,job loss,job training,layoff,mock interview,retraining,sheltered employment,temp agency,ticket to work,vocational,WIA,work permit
+K-12 Christian/Catholic Schools,Catholic School,Christian School,elementary school,guidance counselor,head of schools,high school,IEP,k-12,middle school,principal,school director,secondary school,superintendent
+Language Instruction / ESL,bilingual,English teacher,ESL,ESOL,multilingual,second language,TEFL
+Language Translation / Interpreter,interpretation,Language,linguist,Translation,Wycliffe
+Legal,affadavit,alliance defense fund,arbitration,arbitrator,attorney,bail,bailiff,beckett,child advocate,Christian law,conciliator,court,dispute resolution,estate,fair housing,hearing officer,International Justice Mission,judge,judicial,Justice,law clerk,law enforcement,lawyer,Legal,liberty council,litigation,magistrate,malpractice,mediation,mediator,notary,paralegal,probation,public defender,restraining order,title examiner,trafficking
+Management,CEO,consultancy,director of operations,executive director,founder,general manager,management,president,program director,project manager
+Men's Ministry ,Men,pornography
+Mentoring,Amachi,at-risk youth,big brother,big sister,boys & girls club,buddy,HERC,Mentor,peer,teen program,youth empowerment
+Orphanage,children's home,foster care,Orphan
+Pastor / Preacher / Minister,bishop,clergy,minister,pastor,preacher,priest,theologian,vicar
+Photography and Videography,camera,cinematographer,cinematography,film,motion picture,multimedia,photographer,photography,video
+Political Advocacy and Justice,advocacy,censorship,civil liberties,civil rights,community organizer,community organizing,fair trade,faith & justice,human rights,lobbying,lobbyist,one-child policy,race relations,reconciliation,social action,voter education
+Prayer Ministry,faith healing,healing mass,intercession,intercessory,spiritual gifts,vigil
+Prison Ministry,Angel Tree,correctional,ex-offender,inmate,jail,reentry,restorative justice
+Sales/Marketing/Public Relations,advertisement,advertiser,advertising,billboard,bulk mailing,call center,competitive analysis,donation center,family store,market research,media buying,PR,public relations,retail,Sales,social media,telemarketing,thrift
+Science / Tech / Engineering / Math,anthropologist,astronomer,biologist,biotechnology,chemist,econometrics,economics,economist,epidemiologist,geographer,geologist,immunology,laser,math,mathematician,mathematics,maths,psychologist,scientist,sociologist,statistician,statistician,statistics,toxicology
+Senior Ministry / Elder Care,adult day program,continuing care,Elderly,geriatric,live-in assistant,meal delivery,meals on wheels,personal care assistant,resident counselor,residential care
+Service Setup/Tear Down/Logistics,moving equipment,refreshments,Service Setup,Sunday ops,Sunday service
+Single Parents/Crisis Pregnancy,Abortion,adoption,baby bottle,Crisis Pregnancy,pro-life,single mother,Single Parents,sonogram,sonographer,teen parent,ultrasound
+Skilled Trades,automotive,bindery,craftsman,heavy equipment,mechanic,quality control,repair,welder
+Small Group/Bible Study,Bible Study,book club,Small Group
+Social Services,adopt-a-family,clothing bank,clothing closet,Community,Compassion,diaconal
+Social Work,case manager,CHIP,EBT,family support counselor,food stamps,Medicaid,Medicare,public assistance,residential counselor,SNAP,social and health worker,social services,social work,social worker,SSI,TANF,unemployment,welfare,WIC
+"Sound, Lights, Video Ministry",Audio,mixer,projection,projectionist,sound team,tech crew
+Sports and Recreation,activities director,aerobics,aquatics,archery,athletic,baseball,basketball,biking,blanket maker,bowling,coach,craft,crochet,cycling,equestrian,exercise,fishing,fitness,football,game,golf,gym,hiking,hobby,kickboxing,leisure,lifeguard,lock-in,outdoor,physical activity,recess,Recreation,referee,scrapbook,sewing,skateboarding,skating,skiing,soccer,Sports,surfing,swim,talent show,tennis,tour guide,tournament,umpire,wilderness,woodworker,woodworking
+Student/Campus Ministry ,Campus,Chi Alpha,Christian Union,Coalition for Christian Outreach,Collegiate,Fellowship of Christian Athletes,Intervarsity,RUF,Student,student fellowship
+Sunday School/Religious Ed,Alpha,AWANA,Bible spa,Bible teacher,catechism,catechist,christian ed,christian education,Good News Club,Religious Ed,religious education
+Teaching,classroom,enrichment,numeracy,school,Teacher,teaching,trainer,workshop
+Transportation Services,bus driver,CDL,chauffeur,courier,designated driver,DOT,errand driver,messenger,railroad,shipping,transport,truck driver,van driver,watercraft
+Tutoring,after school,afterschool,exam preparation,homework,kids club,reading workshop,remedial reading,study helper,Tutor
+Usher/Altar Service,acolyte,altar,offering,usher
+Vacation Bible School,5-day club,CEF,Good News Club,Lifeway,Vacation Bible School,VBS
+Visitation/Pastoral Care,companion,home visit,homebound,Pastoral,Visitation
+Women's Ministry,Women
+Worship/Music/Choir,accompanist,bass player,bassist,bell choir,choir,choral,composer,concert,drummer,guitarist,handbell,instrumentalist,keyboard player,keyboardist,music,organist,pianist,praise,recording,sing,vocalist,worship
+Writing / Editing,blog,copyeditor,correspondent,editor,journalist,literature,magazine,manual developer,newsletter,periodical,poem,proofreader,publish,reporter,scribe,writer
