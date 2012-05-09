@@ -1,0 +1,71 @@
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#-----------------------------------------------------------------------
+#some test synonym mappings unlikely to appear in real input text
+aaafoo => aaabar
+bbbfoo => bbbfoo bbbbar
+cccfoo => cccbar cccbaz
+fooaaa,baraaa,bazaaa
+
+# Some synonym groups specific to this example
+GB,gib,gigabyte,gigabytes
+MB,mib,megabyte,megabytes
+Television, Televisions, TV, TVs
+#notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
+#after us won't split it into two words.
+
+# Synonym mappings can be used for spelling correction too
+pixima => pixma
+
+family => families
+education => ed
+women => women's
+youth,child,children,kid,kids,yout => children's
+Youth,youth,Childcare,childcare,Kids,kids,Yout,yout
+Youth,youth,Childcare,childcare,Kids,kids,Yout,yout
+#Youth, youth, Childcare, childcare, Kids, kids, Yout, yout => "Youth Worker / Childcare"
+#Homeless, homeless, Homelessness, homelessness, Housing, housing => "Homelessness and Housing"
+
+USA,United States
+Great Britain,UK,United Kingdom
+
+# AFG Synonyms
+MLK,mlk,martin luther,mlktech,king day,day on not a day off,ml king,MLKDay
+OilSpill,oil spill,bp,gulf cleanup,oil cleanup,spill cleanup
+EarthDay,environment,nature,environmental,outdoors,gardening,garden,wetlands,forest,forests,tree,trees,sierra club
+Moms,mom,mother,mothers
+Dad,dads,father,fathers
+Kids,kid,children,youth 
+Hunger,anti-hunger,childhood hunger,feeding america,food bank,food pantry,food programs,free lunch,healthy meals,hungry,hungry children,meal programs,meals on wheels,nutritious,reduced lunch,school lunches,share our strength,starvation,starving,underfed,soup kitchen,poor nutrition,malnourished,foodbank
+Nature,environment,environmental,outdoors,gardening,wetlands,forest,forests
+Education,book drive,literacy,academic,math,homework
+Read,reading,reader,readers
+Teach,teaching,teacher
+Student,students
+#Animals,animal,animals,dog,dogs,cat,cats,zoo,bird,birds,zoos,puppies,puppy,kitten,kitty,critter,critters,frog,frogs,turtle,turtles,kittens
+Health,hospital,hospitals,medical,healthcare,mental,hospice,nursing,cancer,nurse,nurses,doctor,doctors
+Seniors,senior,seniors,elderly
+Technology,website,computer,computers,technology,web,internet
+Poverty,homeless,poverty,poor
+Tutoring,tutor,mentoring,mentor
+Gardening,garden,gardens,gardener,gardeners,gardening
+Lawyer,lawyer.lawyers,attorney,attorneys,legal counsel,family law,court system,court facilities,court forms,legal information,legal help
+Doctor,doctor,doctors,medical professional,medical professionals,nurse,nurses
+Programmer,programmer,programmers,software developer,software developers,software engineer,software engineer,software
+Repairman,plumber,plumbers,electrician,electricians,carpenter,carpenters,bricklayer,bricklayers,woodworker,woodworkers
+Artist,artist,artists,drawing,painter,painters,painting,sculpting,sculptor,sculptors
+GraphicDesigner,graphic designer,graphic designers,graphic design,graphic skills,graphics skills,graphic artist,graphic artists
+Videographer,videographer,videographers
+VeteransDay,veteran,veterans
+handson,hands on
+united way,unitedway
